@@ -22,6 +22,7 @@ printmessage_1_svc(msg, req)
   }
   fprintf(f, "%s\n", *msg);
   fclose(f);
+  printf("%s\n", *msg);
   result = 1;
   return (&result);
 }
