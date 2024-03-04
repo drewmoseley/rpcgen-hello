@@ -9,8 +9,9 @@
  * Remote verson of "printmessage"
  */
 int *
-printmessage_1(msg)
+printmessage_1_svc(msg, req)
      char **msg;
+     struct svc_req* req;
 {
   static int result; /* must be static! */
   FILE *f;
