@@ -1,0 +1,1 @@
+docker buildx build --push --platform linux/arm64,linux/arm,linux/amd64 -t <docker-namespace>/rpcgentest:latest .
